@@ -1,0 +1,14 @@
+; ============================================================
+; Three-Address IR for: examples/floats.toy
+; ============================================================
+   0  pi = 3.14159
+   1  radius = 5
+   2  ; [dead] (eliminated)
+   3  area = 15.708
+   4  count = 3
+   5  ; [dead] (eliminated)
+   6  avg = 5.236
+   7  print 3.14159
+   8  print 5
+   9  print 15.708
+  10  print 5.236

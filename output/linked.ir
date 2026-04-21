@@ -1,0 +1,25 @@
+; ============================================================
+; Linked Output IR
+; ============================================================
+   0  ; === Unit: examples/main.toy ===:
+   1  base = 10
+   2  scale = 2
+   3  ; [dead] (eliminated)
+   4  input = 20
+   5  print 20
+   6  ; === Unit: examples/math.toy ===:
+   7  x = 7
+   8  y = 3
+   9  ; [dead] (eliminated)
+  10  result = 10
+  11  ; [dead] (eliminated)
+  12  product = 21
+  13  print 10
+  14  print 21
+  15  ; === Unit: examples/utils.toy ===:
+  16  helper_val = 42
+  17  helper_pi = 3.14
+  18  ; [dead] (eliminated)
+  19  doubled = 84
+  20  print 42
+  21  print 84

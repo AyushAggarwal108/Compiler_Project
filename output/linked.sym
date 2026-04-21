@@ -1,0 +1,17 @@
+
+┌──────────────────────────────────────────────────────────────┐
+│                   LINKER SYMBOL MAP                         │
+├──────────────────────────┬───────────────────────────────────┤
+│ Symbol                   │ Defined In                        │
+├──────────────────────────┼───────────────────────────────────┤
+│ y                        │ examples/math.toy                 │
+│ result                   │ examples/math.toy                 │
+│ doubled                  │ examples/utils.toy                │
+│ product                  │ examples/math.toy                 │
+│ helper_pi                │ examples/utils.toy                │
+│ base                     │ examples/main.toy                 │
+│ helper_val               │ examples/utils.toy                │
+│ x                        │ examples/math.toy                 │
+│ scale                    │ examples/main.toy                 │
+│ input                    │ examples/main.toy                 │
+└──────────────────────────┴───────────────────────────────────┘

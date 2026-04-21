@@ -1,0 +1,30 @@
+; ============================================================
+; Three-Address IR for: examples/arithmetic.toy
+; ============================================================
+   0  a = 10
+   1  b = 3
+   2  ; [dead] (eliminated)
+   3  c = 13
+   4  ; [dead] (eliminated)
+   5  d = 7
+   6  ; [dead] (eliminated)
+   7  e = 30
+   8  ; [dead] (eliminated)
+   9  ; [dead] (eliminated)
+  10  sum = 50
+  11  ; [dead] (eliminated)
+  12  ; [dead] (eliminated)
+  13  folded = 22
+  14  ; [dead] (eliminated)
+  15  ; [dead] (eliminated)
+  16  also_folded = 50
+  17  ; [dead] (eliminated)
+  18  a = 11
+  19  print 11
+  20  print 3
+  21  print 13
+  22  print 7
+  23  print 30
+  24  print 50
+  25  print 22
+  26  print 50
