@@ -1,0 +1,9 @@
+// math.toy — Math utility unit for multi-file link demo
+
+int x = 7;
+int y = 3;
+int result = x + y;
+int product = x * y;
+
+print(result);
+print(product);

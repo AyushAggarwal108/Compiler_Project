@@ -1,0 +1,22 @@
+# Build artifacts
+build/
+*.o
+*.d
+compiler
+*.a
+*.so
+*.dylib
+
+# IDE and editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Generated output
+output/
+*.ir
+*.asm
+*.sym

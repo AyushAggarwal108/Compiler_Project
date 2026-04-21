@@ -1,0 +1,12 @@
+// errors.toy — Demonstrates semantic error detection
+// This file intentionally contains errors — do NOT compile successfully
+
+int a = 5;
+int a = 10;        // ERROR: redeclaration of 'a'
+
+int b = c + 1;     // ERROR: undeclared variable 'c'
+
+float x = 2.5;
+int bad = x + 1;   // WARNING: narrowing float → int
+
+int zero_div = 10 / 0;  // ERROR: division by zero (static)

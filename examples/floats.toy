@@ -1,0 +1,13 @@
+// floats.toy — Float arithmetic and type promotion
+
+float pi = 3.14159;
+float radius = 5.0;
+float area = pi * radius;
+
+int count = 3;
+float avg = area / count;
+
+print(pi);
+print(radius);
+print(area);
+print(avg);

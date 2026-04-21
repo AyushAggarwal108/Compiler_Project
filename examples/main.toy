@@ -1,0 +1,8 @@
+// main.toy — Entry point for multi-file link demo
+// References 'result' from math.toy
+
+int base = 10;
+int scale = 2;
+int input = base * scale;
+
+print(input);

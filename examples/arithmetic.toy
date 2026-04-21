@@ -1,0 +1,23 @@
+// arithmetic.toy — Demonstrates arithmetic operations
+// and constant folding optimization
+
+int a = 10;
+int b = 3;
+int c = a + b;
+int d = a - b;
+int e = a * b;
+int sum = c + d + e;
+
+// These will be constant-folded by the optimizer
+int folded = 4 * 5 + 2;
+int also_folded = 100 - 25 * 2;
+
+a = a + 1;
+print(a);
+print(b);
+print(c);
+print(d);
+print(e);
+print(sum);
+print(folded);
+print(also_folded);

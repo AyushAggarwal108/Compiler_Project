@@ -1,0 +1,10 @@
+// hello.toy — Basic variable declarations and print
+// Demonstrates: int/float, arithmetic, print statements
+
+int a = 5;
+int b = a + 2;
+float x = 3.14;
+
+print(a);
+print(b);
+print(x);
